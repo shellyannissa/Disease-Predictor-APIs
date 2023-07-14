@@ -24,7 +24,7 @@ All the age prediction APIs have the format: {"result": {age}}, where the most p
 
 <img width="1121" alt="Screenshot 2023-07-14 at 1 03 25 AM" src="https://github.com/shellyannissa/Compute-Disease-Probability/assets/118563935/bee37ced-5552-4156-bc56-c94f4fc9a244">
 
-# Running/Deoploying
+# Running/Deploying
 If you are running the API on your local machine or a virtual machine, follow these steps:
 
 Add the file api.py and all the files within the folder PICKLE(those with extensions .pkl). Ensure that all the files are in the same directory.
