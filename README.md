@@ -12,7 +12,7 @@ The APIs expect certain parameters and input data to provide accurate results. S
 
 The API endpoints generally follow the format: http://< ip address >:8080/< route >. For example, http://23.34.113.22:8080/chr_kid.
 
-The IP address can be that of the virtual machine where API is running or "localhost" if it is your local machine. Each route corresponds to a specific model and its associated function. For a better understanding of the function assigned to each route, refer to the file api.py.
+The IP address can be that of the virtual machine where API is running or 127.0.0.1 if it is your local machine. Each route corresponds to a specific model and its associated function. For a better understanding of the function assigned to each route, refer to the file api.py.
 
 The response received from disease predictor models follows the json format: {"acc": {accuracy}, "result": {conclusion}}. Here, "accuracy" indicates the accuracy of the trained machine learning model, and "conclusion" is a binary value indicating the presence of the disease.
 
